@@ -106,7 +106,7 @@ def plot_frequency_distribution_of_ngrams(sample_texts,
     plt.xlabel('N-grams')
     plt.ylabel('Frequencies')
     plt.title('Frequency distribution of n-grams')
-    plt.xticks(idx, ngrams, rotation=45)
+    plt.xticks(idx, ngrams, rotation=90)
     plt.show()
 
 
